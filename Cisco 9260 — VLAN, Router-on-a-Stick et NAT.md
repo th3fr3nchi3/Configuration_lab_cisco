@@ -8,9 +8,9 @@ Cette configuration met en place deux réseaux locaux séparés par **VLAN** :
 
 - **VLAN 10** — `192.168.10.0/24`
   - Un PC
-  - Un serveur Proxmox
+  - Un client1
 - **VLAN 20** — `192.168.20.0/24`
-  - Un second PC
+  - Un client2
 
 Le switch est relié au routeur sur le port `GigabitEthernet1/0/1` du switch et `GigabitEthernet0/0` du routeur.
 
